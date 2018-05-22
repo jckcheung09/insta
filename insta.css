@@ -4,16 +4,16 @@ body{
 }
 .left{
   float: left;
-  width: 40%;
-  padding-left: 9%;
+  width: 30%;
+  padding-left: 19%;
   padding-right: 1%;
   padding-top: 3%;
 
 }
 .right{
   float: right;
-  width: 40%;
-  padding-right: 9%;
+  width: 30%;
+  padding-right: 19%;
   padding-left: 1%;
   padding-top: 3%;
 }
@@ -27,10 +27,18 @@ body{
 }
 
 button{
-  background-color: blue;
+  background-color: rgb(56,151,240);
   font-weight: bold;
   color: white;
-  width: 70%;
+  width: 80%;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 0px 12px 0px 12px;
+  border-width: 1px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+
+
 }
 
 .icon{
@@ -53,8 +61,11 @@ button{
 }
 .signmes{
   opacity: .5;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 17px;
+  color: rgba(153, 153,153);
+  font-size: 17px;
+
 }
 input{
   width: 80%;
@@ -78,6 +89,7 @@ input{
   clear: both;
   width: 100%;
   text-align: center;
+  padding-top: 5%;
 
 }
 
@@ -89,7 +101,7 @@ input{
   font-family: sans-serif ;
 }
 hr{
-  
+
   display: inline-block;
   width: 40%;
 }
